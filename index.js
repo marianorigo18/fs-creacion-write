@@ -1,10 +1,29 @@
 import {promises as fs} from "fs"
-const products = async () => {
-    await fs.writeFile("./personas.txt", "hello from index")
-    await fs.appendFile("./personas.txt", "\nbuin y tu?")
-    const response = await fs.readFile("./personas.txt", "utf-8")
-    console.log(response);
-    // await fs.unlink("./personas.txt")
+
+class ProductManager{
+    constructor(){
+        this.path = "./productos.txt"
+    }
+
+    static id = 0
+
+    addProducts = async (title, description, price, thumbnail, stock, code) => {
+        ProductManager.id++
+        const products = {
+            title,
+            description,
+            price,
+            thumbnail,
+            stock,
+            code,
+            id: ProductManager.id
+        }
+        console.log(products)
+        await fs.writeFile(this.path, "Hello from txt")
+    }
+
 }
 
-products();
+const products = new ProductManager()
+
+products.addProducts("product1", "kakak", 1500, "imagen1.jpg", 15, 45456)
