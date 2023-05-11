@@ -1,21 +1,12 @@
 [
 	{
-		"title": "product1",
+		"title": "product3",
 		"description": "kakak",
-		"price": 1500,
-		"thumbnail": "imagen1.jpg",
-		"stock": 15,
-		"code": 45456,
-		"id": 1
-	},
-	{
-		"title": "product2",
-		"description": "kakak",
-		"price": 1500,
+		"price": 2500,
 		"thumbnail": "imagen2.jpg",
 		"stock": 15,
-		"code": 45457,
-		"id": 2
+		"code": 45459,
+		"id": 4
 	},
 	{
 		"title": "product3",
@@ -25,14 +16,5 @@
 		"stock": 15,
 		"code": 45458,
 		"id": 3
-	},
-	{
-		"title": "product3",
-		"description": "kakak",
-		"price": 1500,
-		"thumbnail": "imagen2.jpg",
-		"stock": 15,
-		"code": 45459,
-		"id": 4
 	}
 ]
