@@ -1,20 +1,11 @@
 [
 	{
-		"title": "product3",
-		"description": "kakak",
-		"price": 2500,
-		"thumbnail": "imagen2.jpg",
-		"stock": 15,
-		"code": 45459,
-		"id": 4
-	},
-	{
-		"title": "product3",
-		"description": "kakak",
-		"price": 1500,
-		"thumbnail": "imagen2.jpg",
-		"stock": 15,
-		"code": 45458,
-		"id": 3
+		"title": "producto prueba",
+		"description": "Este es un producto prueba",
+		"price": 200,
+		"thumbnail": "Sin imagen",
+		"stock": 25,
+		"code": "abc123",
+		"id": 2
 	}
 ]
